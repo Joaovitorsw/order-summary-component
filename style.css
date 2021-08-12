@@ -60,3 +60,14 @@ main {
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
+.title-mini-card {
+  font-weight: 700;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.title-mini-card,
+.price {
+  position: relative;
+  left: -40%;
+}
