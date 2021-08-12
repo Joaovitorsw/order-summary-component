@@ -49,3 +49,14 @@ main {
   color: var(--septenary-color);
   max-width: 230px;
 }
+
+.mini-card {
+  background: url(images/icon-music.svg);
+  background-repeat: no-repeat;
+  background-size: 32px 32px;
+  background-position-y: 50%;
+  position: relative;
+  padding: 10px 80px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
