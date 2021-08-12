@@ -84,7 +84,6 @@ main {
   right: 0px;
 }
 
-
 .mini-card a:hover {
   text-decoration: none;
   color: var(--secondary-color-light);
@@ -112,4 +111,13 @@ main {
 }
 .submit:hover {
   background-color: var(--secondary-color-light);
+}
+.cancel {
+  margin-bottom: 30px;
+  background-color: transparent;
+  color: var(--septenary-color);
+  font-weight: 900;
+}
+.cancel:hover {
+  color: unset;
 }
