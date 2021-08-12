@@ -16,3 +16,22 @@ body {
   padding: 20px;
   font-family: "Red Hat Display", sans-serif;
 }
+
+main {
+  box-shadow: 0px 8px 5px var(--septenary-color);
+  border-radius: 0px 0px 15px 15px;
+}
+.img-content {
+  height: 150px;
+  border-radius: 15px 15px 0px 0px;
+  background-image: url(images/illustration-hero.svg);
+  background-size: 100% 100%;
+}
+.text-content {
+  background-color: var(--tertiary-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px;
+  border-radius: 0px 0px 15px 15px;
+}
