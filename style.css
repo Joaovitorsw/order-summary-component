@@ -71,3 +71,15 @@ main {
   position: relative;
   left: -40%;
 }
+.price {
+  color: var(--septenary-color);
+  font-size: 12px;
+}
+.mini-card a {
+  color: var(--secondary-color);
+  font-weight: 700;
+  font-size: 12px;
+  transform: translateY(-70%);
+  position: absolute;
+  right: 0px;
+}
